@@ -2,8 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:core';
 import 'dart:developer' as developer;
-import 'dart:io';
-import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 
 Future<City_locations> fetchCity() async {

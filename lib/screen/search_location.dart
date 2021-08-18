@@ -39,7 +39,6 @@ class _MyHomePageState extends State<MyHomePage> {
             } else if (snapshot.hasError) {
               return Text('${snapshot.error}');
             }
-            // By default, show a loading spinner.
             return const CircularProgressIndicator();
           },
         ),
